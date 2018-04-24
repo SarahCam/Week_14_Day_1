@@ -6,13 +6,13 @@ class MovieBox extends Component {
   constructor(props){
     super(props);
     this.state = {
-      data: [ { id: 1, name: "Rampage", url:"https://www.imdb.com", showTimes: "Showtimes"},
-              { id: 2, name: "Peter Rabbit", url:"https://www.imdb.com", showTimes: "Showtimes"},
-              { id: 3, name: "A Quiet Place", url:"https://www.imdb.com", showTimes: "Showtimes"},
-              { id: 4, name: "Ready Player One", url:"https://www.imdb.com", showTimes: "Showtimes"},
-              { id: 5, name: "Truth or Dare", url:"https://www.imdb.com", showTimes: "Showtimes"},
-              { id: 6, name: "Avengers: Infinity War", url:"https://www.imdb.com", showTimes: "Showtimes"},
-              { id: 7, name: "Beast", url:"https://www.imdb.com", showTimes: "Showtimes"},
+      data: [ { id: 1, name: "Rampage", url:"https://www.imdb.com", showTimes: "Showtimes", showTimesUrl: "https://www.imdb.com"},
+              { id: 2, name: "Peter Rabbit", url:"https://www.imdb.com", showTimes: "Showtimes", showTimesUrl: "https://www.imdb.com"},
+              { id: 3, name: "A Quiet Place", url:"https://www.imdb.com", showTimes: "Showtimes", showTimesUrl: "https://www.imdb.com"},
+              { id: 4, name: "Ready Player One", url:"https://www.imdb.com", showTimes: "Showtimes", showTimesUrl: "https://www.imdb.com"},
+              { id: 5, name: "Truth or Dare", url:"https://www.imdb.com", showTimes: "Showtimes", showTimesUrl: "https://www.imdb.com"},
+              { id: 6, name: "Avengers: Infinity War", url:"https://www.imdb.com", showTimes: "Showtimes", showTimesUrl: "https://www.imdb.com"},
+              { id: 7, name: "Beast", url:"https://www.imdb.com", showTimes: "Showtimes", showTimesUrl: "https://www.imdb.com"},
             ]
     }
   }

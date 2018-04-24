@@ -26,3 +26,35 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+h2 {
+  font-size: 20px;
+}
+
+button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a {
+  font-size: 12px;
+  color: #008CBA; /* Blue */
+}
+
+td {
+  padding: 10px;
+}
+
+.movieURL {
+  text-align: left;
+}
+
+.movieShowTimes {
+  text-align: right;
+}
