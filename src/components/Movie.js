@@ -1,11 +1,9 @@
 import React from "react";
 
 const Movie = (props) =>
-      <div className="Movie">
-        <tr>
-          <td className="movieName">{props.name}</td>
+        <tr className="Movie">
+          <td className="movieURL"><a href={props.url}>{props.name}</a></td>
           <td className="movieShowTimes">{props.showTimes}</td>
         </tr>
-      </div>
 
 export default Movie;
