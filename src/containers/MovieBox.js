@@ -26,7 +26,7 @@ class MovieBox extends Component {
       <div className="movie-box">
         <h2>UK Opening This Week</h2>
         <MovieList data={this.state.data} />
-        <a href="https://www.imdb.com">See more opening this week >></a><br/>
+        <a className="link" href="https://www.imdb.com">See more opening this week >></a><br/>
         <button onClick={this.getShowTimes}>Get Show Times >></button>
       </div>
   );
