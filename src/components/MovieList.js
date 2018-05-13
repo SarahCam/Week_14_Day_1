@@ -1,15 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 import Movie from "./Movie"
 
-class MovieList extends Component {
+class MovieList extends React.Component {
   render(){
-    const movieNodes = this.props.data.map(movie => {
+    const movieRows = this.props.data.map((movie, index) => {
       return (
-        <Movie name={movie.name} showTimes={movie.showTimes} url={movie.url} showTimesUrl={movie.showTimesUrl} key={movie.id}></Movie>
+        <ul>
+          <Movie name={movie.name} showTimes={movie.showTimes} url={movie.url} showTimesUrl={movie.showTimesUrl} key={index}></Movie>
+        </ul>
       );
     });
     return (
-      <table><tbody className="movieList">{movieNodes}</tbody></table>
+      <React.Fragment>
+        <li>{movieRows}</li>
+      </React.Fragment>
     )
   }
 }
